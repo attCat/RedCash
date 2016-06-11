@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/all_back_color"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_open"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/btn_selector_theme"
+        android:text="打开辅助功能"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="43dp"
+        android:text="教程:设置->辅助功能->抢红包->打开"
+        android:textColor="@android:color/black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="20dp"
+        android:text="注意:自动抢红包过程中最好不要聊天"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/btn_open_url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\@csi0n"
+        android:textSize="15dp"
+        android:textColor="@android:color/black"
+        android:layout_above="@+id/textView4"
+        android:layout_marginBottom="20dp"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_marginBottom="80dp"
+        android:layout_width="wrap_content"
+        android:textSize="15dp"
+        android:textColor="@android:color/black"
+        android:layout_height="wrap_content"
+        android:text="免责申明:个人使用，请勿进行商业用途."
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+</RelativeLayout>
